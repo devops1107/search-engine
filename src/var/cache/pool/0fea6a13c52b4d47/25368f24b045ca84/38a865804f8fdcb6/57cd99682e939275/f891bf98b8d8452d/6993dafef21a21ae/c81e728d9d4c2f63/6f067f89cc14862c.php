@@ -1,0 +1,17 @@
+<?php 
+/* Cachekey: cache/stash_default/parsedmenu/2/ */
+/* Type: array */
+/* Expiration: 2020-12-23T16:10:08+06:00 */
+
+
+
+$loaded = true;
+$expiration = 1608718208;
+
+$data = array();
+
+/* Child Type: array */
+$data['return'] = unserialize(base64_decode('YTo0OntpOjI3O2E6Njp7czo5OiJwYXJlbnRfaWQiO2k6MDtzOjEwOiJpdGVtX2xhYmVsIjtzOjU6IkFib3V0IjtzOjg6Iml0ZW1fdXJsIjtzOjE1OiIvcGFnZXMvYWJvdXQtdXMiO3M6NzoiaXRlbV9pZCI7aToyNztzOjEwOiJpdGVtX2NsYXNzIjtzOjA6IiI7czo5OiJpdGVtX2ljb24iO3M6MDoiIjt9aToyNjthOjY6e3M6OToicGFyZW50X2lkIjtpOjA7czoxMDoiaXRlbV9sYWJlbCI7czo3OiJDb250YWN0IjtzOjg6Iml0ZW1fdXJsIjtzOjE3OiIvcGFnZXMvY29udGFjdC11cyI7czo3OiJpdGVtX2lkIjtpOjI2O3M6MTA6Iml0ZW1fY2xhc3MiO3M6MDoiIjtzOjk6Iml0ZW1faWNvbiI7czowOiIiO31pOjI4O2E6Njp7czo5OiJwYXJlbnRfaWQiO2k6MDtzOjEwOiJpdGVtX2xhYmVsIjtzOjU6IlRlcm1zIjtzOjg6Iml0ZW1fdXJsIjtzOjIzOiIvcGFnZXMvdGVybXMtb2Ytc2VydmljZSI7czo3OiJpdGVtX2lkIjtpOjI4O3M6MTA6Iml0ZW1fY2xhc3MiO3M6MDoiIjtzOjk6Iml0ZW1faWNvbiI7czowOiIiO31pOjU5O2E6Njp7czo5OiJwYXJlbnRfaWQiO2k6MDtzOjEwOiJpdGVtX2xhYmVsIjtzOjc6IlByaXZhY3kiO3M6ODoiaXRlbV91cmwiO3M6MjE6Ii9wYWdlcy9wcml2YWN5LXBvbGljeSI7czo3OiJpdGVtX2lkIjtpOjU5O3M6MTA6Iml0ZW1fY2xhc3MiO3M6MDoiIjtzOjk6Iml0ZW1faWNvbiI7czowOiIiO319'));
+
+/* Child Type: integer */
+$data['createdOn'] = 1608637853;

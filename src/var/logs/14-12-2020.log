@@ -1,0 +1,17 @@
+[2020-12-14 08:36:40] SlimMonoLogger.CRITICAL: phpmailerException: Could not instantiate mail function. in C:\xampp\htdocs\src\vendor\phpmailer\phpmailer\class.phpmailer.php:1524
+Stack trace:
+#0 C:\xampp\htdocs\src\vendor\phpmailer\phpmailer\class.phpmailer.php(1342): PHPMailer->mailSend('Date: Mon, 14 D...', 'This is a multi...')
+#1 C:\xampp\htdocs\src\vendor\phpmailer\phpmailer\class.phpmailer.php(1215): PHPMailer->postSend()
+#2 C:\xampp\htdocs\src\drivers\Mail\Mailer.php(25): PHPMailer->send()
+#3 C:\xampp\htdocs\src\drivers\Auth\Auth.php(291): spark\drivers\Mail\Mailer->send('admin::emails/e...', 'admin@gmai.com', 'Please verify y...', Array)
+#4 C:\xampp\htdocs\src\controllers\Site\AuthController.php(385): spark\drivers\Auth\Auth->sendActivationEmail('admin@gmai.com', '8', Array)
+#5 [internal function]: spark\controllers\Site\AuthController->registerPOST()
+#6 C:\xampp\htdocs\src\framework\Route.php(173): call_user_func_array(Array, Array)
+#7 [internal function]: Slim\Route->Slim\{closure}()
+#8 C:\xampp\htdocs\src\framework\Route.php(468): call_user_func_array(Object(Closure), Array)
+#9 C:\xampp\htdocs\src\framework\Slim.php(1364): Slim\Route->dispatch()
+#10 C:\xampp\htdocs\src\framework\Middleware\Flash.php(85): Slim\Slim->call()
+#11 C:\xampp\htdocs\src\framework\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#12 C:\xampp\htdocs\src\framework\Slim.php(1308): Slim\Middleware\MethodOverride->call()
+#13 C:\xampp\htdocs\index.php(6): Slim\Slim->run()
+#14 {main} [] []

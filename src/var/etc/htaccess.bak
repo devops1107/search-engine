@@ -1,0 +1,21 @@
+# BEGIN Spark
+Options -Indexes -MultiViews +FollowSymLinks
+AddDefaultCharset UTF-8
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$  /$1 [L,R=301]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
+</IfModule>
+
+<IfModule mod_deflate.c>
+<FilesMatch "\.(html|php|txt|xml|js|css|ttf|otf|ico|json|svg|)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
+</IfModule>
+# END Spark
